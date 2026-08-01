@@ -1,0 +1,76 @@
+body{
+    background:#ffffff;
+}
+
+.logo{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #222 !important;
+}
+
+.row {
+    margin-top: 50px;
+}
+.btn-secondary:hover{
+    background:linear-gradient(135deg, rgb(12, 9, 9), rgb(10, 151, 246));
+    color:white;
+}
+.carousel {
+    width: 100%;
+    margin: 0;
+}
+.carousel-item img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-item img{
+    height: clamp(220px, 50vw, 70vh);
+    object-fit: cover;
+}
+
+
+.perfume-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.perfume1-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.perfume2-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.perfume3-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.perfume3-text{
+    flex: 1 1 400px;
+}
+
+.perfume3-img{
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.perfume3-image{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 50%;
+}
